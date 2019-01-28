@@ -5,22 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tic Tac Toe Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
-    <h1>The grid-column-gap Property:</h1>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'></head>
+    <link rel='stylesheet' href='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.css'>
 
-<div class="container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>  
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>  
-  <div class="grid-item">7</div>
-  <div class="grid-item">8</div>
-  <div class="grid-item">9</div>  
-</div>
+<body>
+    <h1> Tic Tac Toe Game:</h1>
+<main class = "design">
+<section class="container">
+  <div class="grid" id = "gridOne"></div>
+  <div class="grid" id = "gridTwo"></div>
+  <div class="grid" id = "gridThree"></div>  
+  <div class="grid" id = "gridFour"></div>
+  <div class="grid" id = "gridFive"></div>
+  <div class="grid" id = "gridSix"></div>  
+  <div class="grid" id = "gridSeven"></div>
+  <div class="grid" id = "gridEight"></div>
+  <div class="grid" id = "gridNine"></div>  
+
+<section class = "status">  
+<div class = "whosNext"> </div>
+<button id = "reset">Reset Game</button>
+</section>
+</section>
+</main>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script> <!-- linking to jQuery file -->
+<script src="TicTacToe.js"></script>
+<script src='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.min.js'></script>
+
 </body>
 </html>

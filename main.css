@@ -1,0 +1,117 @@
+
+body{
+  background-image: url("background.jpg") ;
+  background-size:cover;
+ 
+}
+.container{
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap:10px;
+  grid-template-columns: 150px 150px 300px;
+  padding: 10px;
+  position: relative;
+  left:30%;
+  margin: 10px;
+  }
+  
+  .grid{
+    background-color: rgba(255, 17, 119,0.7);
+    border: 1px solid rgba(0, 0, 0,0.7);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+
+  .grid:hover {
+    background-color: rgb(255, 17, 119);
+  }
+
+h1{
+      text-align: center;
+      color: #fff;
+      transition: all 0.5s;
+      font-size: 50px;
+      text-transform: uppercase;
+      position: relative;
+      letter-spacing: 0.1em;
+      font-family: Pacifico;
+      -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+      animation: neon1 1.5s ease-in-out infinite alternate;
+      margin: 20px;
+      
+
+  }
+
+  h1:hover {
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+  }
+
+  .status{
+    text-align: center; 
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    position: relative;
+    left:100%;
+  }
+
+  #reset{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 2px;
+    color:white;
+    background-color: #FF9900;
+    height: 30px;
+  }
+
+  button:hover{
+    -webkit-animation: neon5 1.5s ease-in-out infinite alternate;
+    animation: neon5 1.5s ease-in-out infinite alternate;
+    }
+  .whosNext {
+      margin: 15px;
+      color: white;
+  }
+
+  @-webkit-keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    }
+  }
+
+  @keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    }
+  }
+
+  @-webkit-keyframes neon5 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+    }
+  }
+
+  @keyframes neon5 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+    }
+  }
+
+
