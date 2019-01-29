@@ -8,7 +8,7 @@ body{
   grid-column-gap: 10px;
   grid-row-gap:10px;
   grid-template-columns: 150px 150px 100px;
-  padding: 0 500px;
+  padding: 0 449px;
   position: relative;
  
   }
