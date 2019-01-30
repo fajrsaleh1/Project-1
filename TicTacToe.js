@@ -4,7 +4,6 @@
 var player = 1;
 function startGame(event) {
 
-
     // I need to check it the cell is empty or not
      if ($(event.target).text() === '') { 
         if(player%2 === 1){
@@ -34,7 +33,8 @@ function startGame(event) {
             player++; 
             //call the Winner() method
             theWinner()
-    }}
+    }
+}
 
 $('.grid').on('click', startGame);
 
@@ -52,10 +52,8 @@ var box8 = $('#gridEight').text();
 var box9 = $('#gridNine').text();
 
 
-
 // check for rows //
 if((box1 === box2 ) && (box2 === box3) && (box2 !== '')){
- 
     swal("The winner is " + box3);
     resetField()
 }
