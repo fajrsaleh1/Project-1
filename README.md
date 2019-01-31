@@ -65,6 +65,6 @@ MAKE THE WEBSITE RESPONSIVE
 # **Acknowledgements**
     - W3Schools
     - sweetalert
-    -Felix Rilling
+    -Felix Rilling @FelixRilling
     - Hala
 
