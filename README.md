@@ -66,5 +66,6 @@ MAKE THE WEBSITE RESPONSIVE
     - W3Schools
     - sweetalert
     -Felix Rilling @FelixRilling
-    - Hala
+    - Hala @hala-almaimoni
+    - Majd Saleh <3 
 
