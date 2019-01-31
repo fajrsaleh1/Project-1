@@ -2,6 +2,8 @@
 
 It is a simple game developed using JavaScript, HTML and CSS. I used even and odd number to switch between X and O, x is odd and 0 is even.
 
+**Demo Link :** https://fajrsaleh1.github.io/Project-1/landingPage.html
+
 ```
  if ($(event.target).text() === '') { 
         if(player%2 === 1){
@@ -51,7 +53,7 @@ I love to design websites, however, CSS is not my cup of tea, and make the AI ve
     1- Play with your friend ;)
 
 # **Unsolved problems**
-When I opend the website in Safari browser the layout changed and it's only work in Google Chrome browser.
+When I opened the website in Safari browser the layout changed and it's only work in Google Chrome browser.
 MAKE THE WEBSITE RESPONSIVE 
 
 
@@ -61,3 +63,8 @@ MAKE THE WEBSITE RESPONSIVE
     3- Play with your online friends
 
 # **Acknowledgements**
+    - W3Schools
+    - sweetalert
+    -Felix Rilling
+    - Hala
+
